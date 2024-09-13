@@ -1,3 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 body {
     background-color: rgb(255, 196, 213, 50%);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: rgb(246, 0, 105, 43%);
+    width: 1225px;
+    height: 70px;
+    margin-top: 17px;
+    gap: 89px;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-decoration: none;
 }
