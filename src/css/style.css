@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 
 body {
     background-color: rgb(255, 196, 213, 50%);
+}
+
+main {
+    background-size: 100%;
+    background-image: url(/src/assets/imgs/main-img.svg);
+    width: 100%;
+    height: 727px;
 }
 
 header {
