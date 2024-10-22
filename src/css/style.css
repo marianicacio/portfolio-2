@@ -4,6 +4,7 @@
 
 body {
     background-color: rgb(255, 196, 213, 50%);
+    font-family: 'Inter';
 }
 
 main {
@@ -69,4 +70,53 @@ a {
     font-weight: 400;
     font-size: 24px;
     line-height: 29px;
+}
+
+.about-me-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 110px;
+}
+
+.about-me-container p {
+    width: 600px;
+    color: #4D4A4B;
+    font-size: 24px;
+}
+
+.about-me-container div img {
+    width: 448px;
+    height: 440px;
+}
+
+.about-me-container article {
+    display: flex;
+    flex-direction: column;
+    gap: 54px;
+}
+
+.about-me-container h1 {
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+    font-size: 64px;
+    color: rgba(246, 0, 105, 0.61);
+}
+
+.about-me-container article img {
+    width: 92px;
+    height: 97px;
+    position: absolute;
+    left: 2px;
+    top: 828px;
+}
+
+.github {
+    display: flex;
+}
+
+.github img {
+    margin-top: 500px;
+    width: 38px;
+    height: 40px;
 }
