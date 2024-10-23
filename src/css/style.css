@@ -75,6 +75,7 @@ a {
 .about-me-container {
     display: flex;
     justify-content: center;
+    margin-top: 87px;
     width: 100%;
     gap: 110px;
 }
@@ -103,11 +104,11 @@ a {
     color: rgba(246, 0, 105, 0.61);
 }
 
-.about-me-container article img {
-    width: 92px;
-    height: 97px;
+.about-me-container-title img {
+    width: 12px;
+    height: 17px;
     position: absolute;
-    left: 2px;
+    left: 20px;
     top: 828px;
 }
 
