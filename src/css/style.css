@@ -91,10 +91,17 @@ a {
     height: 440px;
 }
 
-.about-me-container article {
+.about-me {
     display: flex;
     flex-direction: column;
     gap: 54px;
+}
+
+.about-me img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 320px;
 }
 
 .about-me-container h1 {
@@ -104,20 +111,11 @@ a {
     color: rgba(246, 0, 105, 0.61);
 }
 
-.about-me-container-title img {
-    width: 12px;
-    height: 17px;
-    position: absolute;
-    left: 20px;
-    top: 828px;
-}
-
 .github {
     display: flex;
 }
 
-.github img {
-    margin-top: 500px;
+.github a img{
     width: 38px;
     height: 40px;
 }
