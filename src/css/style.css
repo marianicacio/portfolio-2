@@ -132,3 +132,32 @@ a {
     text-align: center;
     color: #F60069;
 }
+
+.portfolio-container {
+    background-image: url(/src/assets/imgs/background-projects.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 133px;
+    padding-top: 61px;
+    gap: 69px;
+    padding-bottom: 200px;
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 164px;
+}
+
+.projects p {
+    width: 602px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    color: #4D4A4B;
+}
