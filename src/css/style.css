@@ -33,6 +33,11 @@ nav {
     border-radius: 30px;
 }
 
+nav img {
+    width: 338px;
+    height: 110px;
+}
+
 a {
     font-family: 'Inter';
     font-style: normal;
