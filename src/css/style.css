@@ -33,11 +33,6 @@ nav {
     border-radius: 30px;
 }
 
-nav img {
-    width: 338px;
-    height: 110px;
-}
-
 a {
     font-family: 'Inter';
     font-style: normal;
@@ -83,6 +78,11 @@ a {
     margin-top: 87px;
     width: 100%;
     gap: 110px;
+}
+
+.about-me-container img {
+    width: 338px;
+    height: 110px;
 }
 
 .about-me-container p {
