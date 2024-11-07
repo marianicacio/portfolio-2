@@ -75,6 +75,7 @@ a {
 .about-me-container {
     display: flex;
     justify-content: center;
+    align-items: start;
     margin-top: 87px;
     width: 100%;
     gap: 110px;
@@ -91,6 +92,13 @@ a {
     font-size: 24px;
 }
 
+.about-me-container h1 {
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+    font-size: 64px;
+    color: rgba(246, 0, 105, 0.61);
+}
+
 .about-me-container div img {
     width: 448px;
     height: 440px;
@@ -99,28 +107,19 @@ a {
 .about-me {
     display: flex;
     flex-direction: column;
+    justify-content: start;
     align-items: start;
     gap: 54px;
 }
 
 .about-me img {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    left: 320px;
-}
-
-.about-me-container h1 {
-    font-family: 'Bebas Neue';
-    font-weight: 400;
-    font-size: 64px;
-    color: rgba(246, 0, 105, 0.61);
+    margin-left: -80px;
+    width: 380px;
+    height: 110px;
 }
 
 .github {
     display: flex;
-    justify-content: center;
-    gap: 58px;
 }
 
 .github a img {
@@ -128,15 +127,6 @@ a {
     height: 40px;
 }
 
-.github a {
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 16px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #F60069;
-}
 
 .portfolio-container {
     background-image: url(/src/assets/imgs/background-projects.svg);
