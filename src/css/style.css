@@ -118,12 +118,27 @@ a {
     height: 110px;
 }
 
-.github {
+.about-me button a p {
+    font-weight: 400;
+    font-size: 16px;
     display: flex;
+    align-items: center;
+    text-align: center;
+    color: #F60069;
 }
 
-.github a img {
-    width: 38px;
+.about-me button {
+    display: flex;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+}
+
+
+.about-me button a img {
+    width: 40px;
     height: 40px;
 }
 
