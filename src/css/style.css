@@ -78,7 +78,7 @@ a {
     align-items: start;
     margin-top: 87px;
     width: 100%;
-    gap: 110px;
+    gap: 50px;
 }
 
 .about-me-container img {
@@ -166,8 +166,16 @@ a {
 
 .projects p {
     width: 602px;
-    text-align: center;
+    text-align: start;
     font-weight: 400;
     font-size: 24px;
     color: #4D4A4B;
+}
+
+.projects h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    color: #F60069;
+    opacity: 61%;
 }
