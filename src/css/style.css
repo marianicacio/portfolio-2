@@ -74,24 +74,36 @@ a {
 
 .about-me-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: start;
     margin-top: 87px;
     width: 100%;
-<<<<<<< Updated upstream
     gap: 110px;
-=======
+
 }
 
 .about-me-container img {
     width: 68px;
     height: 110px;
->>>>>>> Stashed changes
+    gap: 20px;
+}
+
+.about-me-container img {
+    width: 338px;
+    height: 110px;
 }
 
 .about-me-container p {
     width: 600px;
     color: #4D4A4B;
     font-size: 24px;
+}
+
+.about-me-container h1 {
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+    font-size: 64px;
+    color: rgba(246, 0, 105, 0.61);
 }
 
 .about-me-container div img {
@@ -102,42 +114,73 @@ a {
 .about-me {
     display: flex;
     flex-direction: column;
+    justify-content: start;
     align-items: start;
     gap: 40px;
 }
 
 .about-me img {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    left: 320px;
+    margin-left: -80px;
+    width: 380px;
+    height: 110px;
 }
 
-.about-me-container h1 {
-    font-family: 'Bebas Neue';
-    font-weight: 400;
-    font-size: 64px;
-    color: rgba(246, 0, 105, 0.61);
-}
-
-.github {
-    display: flex;
-    justify-content: center;
-    gap: 58px;
-}
-
-.github a img {
-    margin-left: 50px;
-    width: 38px;
-    height: 40px;
-}
-
-.github a {
-    font-family: 'Inter';
+.about-me button a p {
     font-weight: 400;
     font-size: 16px;
     display: flex;
     align-items: center;
     text-align: center;
     color: #F60069;
+}
+
+.about-me button {
+    display: flex;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+}
+
+.about-me button a img {
+    width: 40px;
+    height: 40px;
+}
+
+.portfolio-container {
+    background-image: url(/src/assets/imgs/background-projects.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 133px;
+    padding-top: 61px;
+    gap: 69px;
+    padding-bottom: 200px;
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 114px;
+}
+
+.projects p {
+    width: 602px;
+    text-align: start;
+    font-weight: 400;
+    font-size: 24px;
+    color: #4D4A4B;
+}
+
+.projects h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    color: #F60069;
+    opacity: 61%;
 }
