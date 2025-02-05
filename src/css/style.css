@@ -78,7 +78,13 @@ a {
     align-items: start;
     margin-top: 87px;
     width: 100%;
-    gap: 20px;
+    gap: 110px;
+
+}
+
+.about-me-container img {
+    width: 68px;
+    height: 110px;
 }
 
 .about-me-container img {
@@ -109,7 +115,7 @@ a {
     flex-direction: column;
     justify-content: start;
     align-items: start;
-    gap: 44px;
+    gap: 40px;
 }
 
 .about-me img {
