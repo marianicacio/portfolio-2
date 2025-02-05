@@ -78,6 +78,7 @@ a {
     align-items: start;
     margin-top: 87px;
     width: 100%;
+<<<<<<< Updated upstream
     gap: 110px;
 
 }
@@ -86,6 +87,9 @@ a {
     width: 68px;
     height: 110px;
     gap: 20px;
+=======
+    gap: 0px;
+>>>>>>> Stashed changes
 }
 
 .about-me-container img {
