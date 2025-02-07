@@ -74,11 +74,10 @@ a {
 
 .about-me-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: start;
     margin-top: 87px;
     width: 100%;
-    gap: 33px;
 
 }
 
