@@ -147,7 +147,7 @@ a {
 }
 
 .portfolio-container {
-    background-image: url(/src/assets/imgs/background-projects.svg);
+    background-image: url(/src/assets/imgs/background.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     display: flex;
