@@ -155,6 +155,13 @@ a {
     padding-bottom: 200px;
 }
 
+.portfolio-container button {
+    display: flex;
+    gap: 6.99px;
+    align-items: center;
+    justify-content: center;
+}
+
 .projects {
     display: flex;
     align-items: center;
