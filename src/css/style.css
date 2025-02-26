@@ -162,6 +162,11 @@ a {
 
 .portfolio-container button {
     display: flex;
+    width: 214px;
+    height: 46px;
+    border-radius: 10px;
+    background-color: rgba(246, 0, 105, 0.43) ;
+    border-width: 0px 2px 2px 0px;
     gap: 6.99px;
     align-items: center;
     justify-content: center;
