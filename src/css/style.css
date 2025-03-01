@@ -162,15 +162,37 @@ a {
 
 .portfolio-container button {
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 214px;
     height: 46px;
     border-radius: 10px;
     background-color: rgba(246, 0, 105, 0.43) ;
     border-width: 0px 2px 2px 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #3E3B3C;
     gap: 6.99px;
     align-items: center;
     justify-content: center;
 }
+
+/* Rectangle 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 214.55px;
+height: 46.39px;
+left: 615px;
+top: 3118px;
+
+background: rgba(246, 0, 105, 0.43);
+border-width: 0px 2px 2px 0px;
+border-style: solid;
+border-color: #4D4A4B;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+
 
 .projects {
     display: flex;
