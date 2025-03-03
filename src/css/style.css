@@ -106,6 +106,7 @@ a {
 
 .about-me {
     display: flex;
+    width: 40%;
     flex-direction: column;
     justify-content: start;
     align-items: start;
@@ -118,7 +119,7 @@ a {
     height: 110px;
 }
 
-.about-me button a p {
+.about-me button a  {
     font-weight: 400;
     font-size: 16px;
     display: flex;
@@ -129,15 +130,14 @@ a {
 
 .about-me button {
     display: flex;
-    margin-left: 50px;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     background-color: transparent;
     border: none;
 }
 
 .about-me button a img {
-    width: 40px;
+    width: 60px;
     height: 40px;
 }
 
@@ -162,10 +162,12 @@ a {
     width: 214px;
     height: 46px;
     border-radius: 10px;
-    background-color: rgba(246, 0, 105, 0.43) ;
+    background-color: rgba(246, 0, 105, 0.43);
     border-width: 0px 2px 2px 0px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    gap: 6.99px;
+    gap: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
 }
 
 .portfolio-container button a {
